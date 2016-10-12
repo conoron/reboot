@@ -7,18 +7,18 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
 
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
       <style>
-
+        
 
 body 
 {
@@ -36,19 +36,17 @@ figcaption
   align-items: center;
 }
 
-.credits
-{
-  min-height:20px;
-}
+
+
     </style>
 
   </head>
 
   <body>
+    
 
-  <div class="ui container">
 <style>
-
+  
 
 code
 {
@@ -79,44 +77,81 @@ h3
   border-bottom: thin solid black;
 }
 
+
+
 </style>
 
 <div class="ui fixed top pointing inverted menu labmenu">
   <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     <a href="../index.html">
-      <i class="sitemap icon"></i>
       Enhance
     </a>
   </header>
   <div class="right tab-menu menu">
-    <a class="active item" data-tab="Lab-03">
-        Lab-03
+    
+    <a class="item" data-tab="Lab-03">
+      Lab-03
     </a>
-      <a class="item" data-tab="01">
-        01
-      </a>
-      <a class="item" data-tab="02">
-        02
-      </a>
-      <a class="item" data-tab="03">
-        03
-      </a>
-      <a class="item" data-tab="04">
-        04
-      </a>
-      <a class="item" data-tab="05">
-        05
-      </a>
-      <a class="item" data-tab="exercises">
-        exercises
-      </a>
-    </div>
+    
+    <a class="item" data-tab="01">
+      01
+    </a>
+    
+    <a class="item" data-tab="02">
+      02
+    </a>
+    
+    <a class="item" data-tab="03">
+      03
+    </a>
+    
+    <a class="item" data-tab="04">
+      04
+    </a>
+    
+    <a class="item" data-tab="05">
+      05
+    </a>
+    
+    <a class="item" data-tab="exercises">
+      exercises
+    </a>
+    
+    <a class="item" href="../../index.html">
+      <i class="home icon"></i>
+    </a>
+  </div>
 </div>
 
-<br><br>
-
-  <div  class="ui tab segment lab" data-tab="Lab-03">
-    <h1>Learning Outcomes</h1>
+<div class="ui segment pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    
+      
+        <a class="item" href="../../topic01/book/index.html">
+          Lab-01
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic02/book/index.html">
+          Lab-02
+        </a>
+      
+    
+      
+        <a class="active item" href="../../topic03/book/index.html">
+          Lab-03
+        </a>
+      
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <br>
+      
+      <div  class="ui tab segment lab" data-tab="Lab-03">
+        <h1>Learning Outcomes</h1>
 <p>In this this Lab we progress into more advanced Components</p>
 <ul>
 <li>We look at integrating <strong>Thumbnails</strong> with text attached</li>
@@ -124,138 +159,142 @@ h3
 <li>Using bootstrap in Moodle Blocks</li>
 <li>Finally we look at some Moodle <strong>Housekeeping</strong></li>
 </ul>
-  </div>
-  <div  class="ui tab segment lab" data-tab="01">
-    <h1>Pop-overs</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="01">
+        <h1>Pop-overs</h1>
 <p>If you use video, you can use a <strong>pop-over</strong> that will allow you to display a video but also give the video a text description along with a heading, but we can do this in context i.e. without leaving that page we are on in Moodle.</p>
 <h2>Tell me more</h2>
-<p>This is what the pop-over looks like on the Moodle labs page, notice we don't have to leave the page or the location</p>
-<p><img alt="" src="./img/05.png"></p>
+<p>This is what the pop-over looks like on the Moodle labs page, notice we don&#39;t have to leave the page or the location</p>
+<p><img src="./img/05.png" alt=""></p>
 <h2>Create your own pop-over</h2>
 <p>Navigate to this link <a href="https://www.ted.com/talks/keith_barry_does_brain_magic" target="_blank">here</a> and copy the URL</p>
-<p>Back in your training module add a URL resource, give it a name then paste in the URL you just copied into the "Eternal URL" field</p>
-<p><img alt="" src="./img/02.png"></p>
+<p>Back in your training module add a URL resource, give it a name then paste in the URL you just copied into the &quot;Eternal URL&quot; field</p>
+<p><img src="./img/02.png" alt=""></p>
 <h2>The code</h2>
-<p>Copy the code below, this will allow you to include any video, just replace the link after the iFrame code from your video that you want to copy. Leave <code>width="420"</code> and <code>height="315"</code> as the dimensions.</p>
-<pre><code class="html">
+<p>Copy the code below, this will allow you to include any video, just replace the link after the iFrame code from your video that you want to copy. Leave <code>width=&quot;420&quot;</code> and <code>height=&quot;315&quot;</code> as the dimensions.</p>
+<pre><code class="lang-html">
 &lt;div class=&quot;inplace-help&quot;&gt;
 &lt;h3&gt;Keith Barry&lt;/h3&gt;
 &lt;p&gt;Watch Keith Barry explain how the mind works&lt;/p&gt;
 &lt;p&gt;and how the mind is easily manipulated&lt;/p&gt;
 &lt;iframe src=&quot;https://embed-ssl.ted.com/talks/keith_barry_does_brain_magic.html&quot; width=&quot;420&quot; height=&quot;315&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-</code></pre>
-
-<p>Don't for get to tick the "Display description on module page" tick box</p>
-<p><img alt="" src="./img/03.png"></p>
-<p>Now back in your Training Area you should see your pop-over when you click on the "Tell me more" button</p>
-<p><img alt="" src="./img/04.png"></p>
+&lt;/div&gt;</code></pre>
+<p>Don&#39;t for get to tick the &quot;Display description on module page&quot; tick box</p>
+<p><img src="./img/03.png" alt=""></p>
+<p>Now back in your Training Area you should see your pop-over when you click on the &quot;Tell me more&quot; button</p>
+<p><img src="./img/04.png" alt=""></p>
 <p><strong>Continue to Step 02</strong></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="02">
-    <h1>Thumbnails</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="02">
+        <h1>Thumbnails</h1>
 <p>Bootstrap thumbnails provide us with the capabilities to incorporate images into Moodle, we can use the <strong>custom content</strong> example, this allows us to combine text with the thumbnail.</p>
-<p><img alt="" src="./img/06.png"></p>
+<p><img src="./img/06.png" alt=""></p>
 <h2>This is what its looks like in Moodle</h2>
 <p>Remember back in the Moodle Labs module in Moodle we saw Thumbnails in action</p>
-<p><img alt="" src="./img/07.png"></p>
+<p><img src="./img/07.png" alt=""></p>
 <h2>Create your own</h2>
 <ul>
 <li>In your Bootstrap tab on your browser navigate to <strong>Thumbnails</strong></li>
-<li>Choose the custom content example and click the "copy" button </li>
+<li>Choose the custom content example and click the &quot;copy&quot; button </li>
 </ul>
-<p><img alt="" src="./img/08.png"></p>
+<p><img src="./img/08.png" alt=""></p>
 <p>then click copy</p>
-<p><img alt="" src="./img/09.png"></p>
+<p><img src="./img/09.png" alt=""></p>
 <ul>
-<li>back in your training area rename section 3 to "Thumbnails"</li>
-<li>paste in the code you have just copied from Bootstrap into the section "Thumbnails" header summary. </li>
+<li>back in your training area rename section 3 to &quot;Thumbnails&quot;</li>
+<li>paste in the code you have just copied from Bootstrap into the section &quot;Thumbnails&quot; header summary. </li>
 </ul>
-<p><img alt="" src="./img/10.png"></p>
+<p><img src="./img/10.png" alt=""></p>
 <h2>Nesting code</h2>
-<p>As you can see the code you just copied into the "Thumbnails" section is just for one component sometime we require more than one component, just like the buttons before in the Announcements.</p>
-<p><img alt="" src="./img/11.png"></p>
+<p>As you can see the code you just copied into the &quot;Thumbnails&quot; section is just for one component sometime we require more than one component, just like the buttons before in the Announcements.</p>
+<p><img src="./img/11.png" alt=""></p>
 <p>If we want to create another 2 thumbnails we must paste in the code for the 2 new thumbnails, however we want to keep the thumbnails on the same level (Horizontal)</p>
 <p>Like this. </p>
-<p><img alt="" src="./img/12.png"></p>
+<p><img src="./img/12.png" alt=""></p>
 <p>We need to copy just the code thats inside the main Opening and closing <DIV> tags (see image below).</p>
-<p><img alt="" src="./img/13.png"></p>
+<p><img src="./img/13.png" alt=""></p>
 <p>Now your are ready to populate the thumbnails with content (text) and images, we look at this in step 03.</p>
 <p><em>Continue to Step 03</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="03">
-    <h1>Populate the Thumbnails</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="03">
+        <h1>Populate the Thumbnails</h1>
 <p>We will populate the thumbnails we created from step 02, we need to place our text and images into each thumbnail.</p>
 <h2>Things to do in Waterford</h2>
-<p><strong>"Things to do in Waterford"</strong> is our topic that we use to populate the 3 thumbnails, decide on 3 things to do in Waterford, find an Image for each one and find a little text for each one.</p>
-<h2>Reginald's Tower</h2>
-<p>I will show you one that I will demonstrate, you can do the rest, My heading will be <strong>Reginald's Tower</strong> and I will put in some text about Reginald's Tower</p>
-<p><img alt="" src="./img/15.png"></p>
+<p><strong>&quot;Things to do in Waterford&quot;</strong> is our topic that we use to populate the 3 thumbnails, decide on 3 things to do in Waterford, find an Image for each one and find a little text for each one.</p>
+<h2>Reginald&#39;s Tower</h2>
+<p>I will show you one that I will demonstrate, you can do the rest, My heading will be <strong>Reginald&#39;s Tower</strong> and I will put in some text about Reginald&#39;s Tower</p>
+<p><img src="./img/15.png" alt=""></p>
 <h2>Find your Images</h2>
 <ul>
-<li>
-<p>We need to open a new tab in our browser so we search images, <a href="https://images.google.com/" target="_blank">click here</a> to open a new tab for Google Images</p>
+<li><p>We need to open a new tab in our browser so we search images, <a href="https://images.google.com/" target="_blank">click here</a> to open a new tab for Google Images</p>
 </li>
-<li>
-<p>Search for "things to do in Waterford Ireland" and we then need to filter for copyright</p>
+<li><p>Search for &quot;things to do in Waterford Ireland&quot; and we then need to filter for copyright</p>
 </li>
 </ul>
-<p><img alt="" src="./img/14.png"></p>
+<p><img src="./img/14.png" alt=""></p>
 <h2>Download your images</h2>
 <p>Decide on 3 images and download them (they will automatically download to you downloads folder).</p>
 <h2>Insert your Headings</h2>
 <p>Delete the heading that is there by default (Thumbnail label) and replace it with your headings.</p>
-<p><img alt="" src="./img/15.png"></p>
+<p><img src="./img/15.png" alt=""></p>
 <h2>Insert your Text</h2>
 <p>Insert your text about the topic that is there by default (...) and replace it with your text.</p>
-<p><img alt="" src="./img/15.png"></p>
+<p><img src="./img/15.png" alt=""></p>
 <h2>Insert your Image</h2>
-<p>Insert your images now, remember if you downloaded an image from Google images it's stored in your <strong>downloads</strong> folder.</p>
-<p><img alt="" src="./img/16.png"></p>
+<p>Insert your images now, remember if you downloaded an image from Google images it&#39;s stored in your <strong>downloads</strong> folder.</p>
+<p><img src="./img/16.png" alt=""></p>
 <ul>
-<li>when you click in the image icon you will see a window asking you to "Browse Repositories"</li>
+<li>when you click in the image icon you will see a window asking you to &quot;Browse Repositories&quot;</li>
 </ul>
-<p><img alt="" src="./img/17.png"></p>
+<p><img src="./img/17.png" alt=""></p>
 <p>Then choose you file from your <strong>downloads</strong> folder and finally upload the image</p>
-<p><img alt="" src="./img/18.png"></p>
+<p><img src="./img/18.png" alt=""></p>
 <p>You will have to repeat these steps for the rest of the thumbnails. </p>
 <p><strong>Continue to Step 04</strong></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="04">
-    <h1>Finish the Thumbnails</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="04">
+        <h1>Finish the Thumbnails</h1>
 <p>As you can see from the last step we have the image in place along with the text, now we must finish by placing hyperlinks behind the buttons.</p>
-<p><img alt="" src="./img/19.png"></p>
+<p><img src="./img/19.png" alt=""></p>
 <h2>Hyperlinks</h2>
 <p>Hyperlink from Moodle can either be Internal i.e. to a resource such as a page or an activity such as an Assignment for a forum. </p>
 <p>The general rule is that if your hyperlinking to an external resource we must open the resource in a new tab, however if we are linking to an internal resource we can open the resource in the same tab.</p>
 <ul>
-<li>to open a new tab we must use the <code>target="blank"</code> attribute (place it just before the <code>role="button"</code>)</li>
+<li>to open a new tab we must use the <code>target=&quot;blank&quot;</code> attribute (place it just before the <code>role=&quot;button&quot;</code>)</li>
 </ul>
-<p><img alt="" src="./img/22.png"></p>
+<p><img src="./img/22.png" alt=""></p>
 <h2>Button Links</h2>
-<p>I'm going to link to an external website that explains more about Reginald's Tower, but I am also going to link to an internal resource (a Discussion Forum).</p>
+<p>I&#39;m going to link to an external website that explains more about Reginald&#39;s Tower, but I am also going to link to an internal resource (a Discussion Forum).</p>
 <ul>
-<li>
-<p>back in you training module turn editing on again and click into the code in the section (Thumbnails) header.</p>
+<li><p>back in you training module turn editing on again and click into the code in the section (Thumbnails) header.</p>
 </li>
-<li>
-<p>you need to insert the URL for both your External and Internal Resources i.e. navigate to the resource and copy the URL's.</p>
+<li><p>you need to insert the URL for both your External and Internal Resources i.e. navigate to the resource and copy the URL&#39;s.</p>
 </li>
 </ul>
-<p><img alt="" src="./img/21.png"></p>
+<p><img src="./img/21.png" alt=""></p>
 <ul>
-<li>paste the URL's into the code within the Button i.e. replace the "#" with the URL</li>
+<li>paste the URL&#39;s into the code within the Button i.e. replace the &quot;#&quot; with the URL</li>
 </ul>
-<p><img alt="" src="./img/20.png"></p>
+<p><img src="./img/20.png" alt=""></p>
 <ul>
-<li>don't forget the change the names i.e. the text that will appear on the button.</li>
+<li>don&#39;t forget the change the names i.e. the text that will appear on the button.</li>
 </ul>
 <p>Now the Thumbnail is finished, it has an image that describes what the content is about, some text to introduce the topic and links for more activities</p>
-<p><img alt="" src="./img/23.png"></p>
+<p><img src="./img/23.png" alt=""></p>
 <p><em>Continue to Step 05</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="05">
-    <h1>Housekeeping</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="05">
+        <h1>Housekeeping</h1>
 <p>We have place in some bootstrap components in order to make the module more engaging and to make it easier to navigate and provide a better user experience.</p>
 <p>We need to tidy up our Training Area so we can improve on the work we have done with Bootstrap.</p>
 <h2>Delete Blocks</h2>
@@ -263,70 +302,67 @@ h3
 <ul>
 <li>turn editing on and locate the block you want to delete.</li>
 </ul>
-<p><img alt="" src="./img/24.png"></p>
+<p><img src="./img/24.png" alt=""></p>
 <ul>
 <li>next hide all the sections that done have a section title, this way the students wont see them.</li>
 </ul>
 <h2>Module Image</h2>
 <ul>
-<li>with Editing turned on goto "Edit Settings" under Administration (on the left)</li>
+<li>with Editing turned on goto &quot;Edit Settings&quot; under Administration (on the left)</li>
 </ul>
-<p><img alt="" src="./img/25.png"></p>
+<p><img src="./img/25.png" alt=""></p>
 <ul>
-<li>drag and drop an image you downloaded from Google to the "Module summary files"</li>
-<li>next scroll down to "Course Format" and change "Hidden sections" to **Hidden Sections are Completely invisible.</li>
+<li>drag and drop an image you downloaded from Google to the &quot;Module summary files&quot;</li>
+<li>next scroll down to &quot;Course Format&quot; and change &quot;Hidden sections&quot; to **Hidden Sections are Completely invisible.</li>
 <li>save changes.</li>
 </ul>
-<p><img alt="" src="./img/28.png"></p>
+<p><img src="./img/28.png" alt=""></p>
 <p><em>Continue to Exercises</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="exercises">
-    <h1>Exercises</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="exercises">
+        <h1>Exercises</h1>
 <h2>Exercise 1</h2>
 <p>Add an HTML block the edit your new block (it will be located on the left-hand side of you Moodle page, it will be called (new HTML block).</p>
-<p><img alt="" src="./img/26.png"></p>
+<p><img src="./img/26.png" alt=""></p>
 <ul>
-<li>place the following text into the block and place a hyper link behind each entry, you can use "Quick Links" as the title. </li>
+<li>place the following text into the block and place a hyper link behind each entry, you can use &quot;Quick Links&quot; as the title. </li>
 </ul>
-<pre><code class="html">
+<pre><code class="lang-html">
 Lecturer
 WIT Libraries
-Moodle Support
-</code></pre>
-
+Moodle Support</code></pre>
 <ul>
 <li>one at a time get the URL for each entry. </li>
 <li>now you just need to highlight each entry and click on the link Icon in the screen.</li>
 </ul>
-<p><img alt="" src="./img/27.png"></p>
+<p><img src="./img/27.png" alt=""></p>
 <h2>Exercise 1</h2>
 <p>Please post you comments or ideas RE bootstrap / Moodle in order for the CTEL to learn new way in which we can support members of staff.</p>
 <p>Please post <a href="hhttps://moodle.wit.ie/mod/forum/view.php?id=1615642" target="_blank">here</a> </p>
-  </div>
-<script>
-$('.ui.menu .item')
-  .tab({
-    history: true,
-    historyType: 'hash'
-  })
-;
-</script>
-   </div>
 
-
-
-  <br><br>
-  <div class="ui bottom fixed borderless menu">
-    <div class="ui small item">
-    <p id="footertext">
-    Prepared by  Conor O'Neill (cponeill@wit.ie). Except where otherwise noted, this content is licensed under a
-     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
-     </a>
-     </p>
+      </div>
+     
     </div>
-  </div>    <script>
+  </div>
+</div>
+  <div class="ui bottom fixed borderless right menu">
+    <div class="ui right tiny menu">
+      <div class="ui mini message segment">
+        Conor O'Neill (cponeill@wit.ie).
+        <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank">Creative Commons License
+        </a>
+      </div>
+    </div>
+  </div>
 
+    <footer>
+
+    </footer>
+    <script>
+      
 $(document).ready(function()
 {
   $("img").addClass ("ui image");
@@ -345,7 +381,21 @@ $(document).ready(function()
   });
 
 
-})    </script>
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
 
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
+
+    </script>
   </body>
+
  </html>

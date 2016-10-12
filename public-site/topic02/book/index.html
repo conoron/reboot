@@ -7,18 +7,18 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
 
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
       <style>
-
+        
 
 body 
 {
@@ -36,19 +36,17 @@ figcaption
   align-items: center;
 }
 
-.credits
-{
-  min-height:20px;
-}
+
+
     </style>
 
   </head>
 
   <body>
+    
 
-  <div class="ui container">
 <style>
-
+  
 
 code
 {
@@ -79,305 +77,331 @@ h3
   border-bottom: thin solid black;
 }
 
+
+
 </style>
 
 <div class="ui fixed top pointing inverted menu labmenu">
   <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     <a href="../index.html">
-      <i class="sitemap icon"></i>
       Extend
     </a>
   </header>
   <div class="right tab-menu menu">
-    <a class="active item" data-tab="Lab-02">
-        Lab-02
+    
+    <a class="item" data-tab="Lab-02">
+      Lab-02
     </a>
-      <a class="item" data-tab="01">
-        01
-      </a>
-      <a class="item" data-tab="02">
-        02
-      </a>
-      <a class="item" data-tab="03">
-        03
-      </a>
-      <a class="item" data-tab="04">
-        04
-      </a>
-      <a class="item" data-tab="05">
-        05
-      </a>
-      <a class="item" data-tab="Exercises">
-        Exercises
-      </a>
-    </div>
+    
+    <a class="item" data-tab="01">
+      01
+    </a>
+    
+    <a class="item" data-tab="02">
+      02
+    </a>
+    
+    <a class="item" data-tab="03">
+      03
+    </a>
+    
+    <a class="item" data-tab="04">
+      04
+    </a>
+    
+    <a class="item" data-tab="05">
+      05
+    </a>
+    
+    <a class="item" data-tab="Exercises">
+      Exercises
+    </a>
+    
+    <a class="item" href="../../index.html">
+      <i class="home icon"></i>
+    </a>
+  </div>
 </div>
 
-<br><br>
-
-  <div  class="ui tab segment lab" data-tab="Lab-02">
-    <h1>Learning Outcomes</h1>
+<div class="ui segment pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    
+      
+        <a class="item" href="../../topic01/book/index.html">
+          Lab-01
+        </a>
+      
+    
+      
+        <a class="active item" href="../../topic02/book/index.html">
+          Lab-02
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic03/book/index.html">
+          Lab-03
+        </a>
+      
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <br>
+      
+      <div  class="ui tab segment lab" data-tab="Lab-02">
+        <h1>Learning Outcomes</h1>
 <p>In this lab we will learn</p>
 <ul>
 <li>What a <strong>tag</strong> is and how we can use tags </li>
 <li>We will also start looking at including images</li>
 <li>We look more at what a <strong>URL</strong> (web address) is and how we can <strong>Hyperlink</strong> with it</li>
 </ul>
-  </div>
-  <div  class="ui tab segment lab" data-tab="01">
-    <h1>Tags Tags and more Tags</h1>
-<p>As you can see from the previous Lab, to use Bootstrap Components in Moodle we need t understand what tags are, so just in case you don't know what tags are, here's the quick explanation.</p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="01">
+        <h1>Tags Tags and more Tags</h1>
+<p>As you can see from the previous Lab, to use Bootstrap Components in Moodle we need t understand what tags are, so just in case you don&#39;t know what tags are, here&#39;s the quick explanation.</p>
 <h1>What is HTML</h1>
 <p>HTML is a markup language used to describe or structure the contents of web pages, HTML stands for <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage, and a markup language is a set of markup tags</p>
-<h1>Basics tag's</h1>
+<h1>Basics tag&#39;s</h1>
 <p><em>Headings</em></p>
-<pre><code class="html">&lt;h1&gt;This is a heading&lt;/h1&gt;
+<pre><code class="lang-html">&lt;h1&gt;This is a heading&lt;/h1&gt;
 &lt;h2&gt;This is a bigger heading&lt;/h2&gt;
-&lt;h3&gt;This is an even bigger heading&lt;/h3&gt;
-</code></pre>
-
+&lt;h3&gt;This is an even bigger heading&lt;/h3&gt;</code></pre>
 <p><em>Paragraphs</em></p>
-<pre><code class="html">&lt;p&gt;This is a paragraph.&lt;/p&gt;
-&lt;p&gt;This is another paragraph.&lt;/p&gt;
-</code></pre>
-
+<pre><code class="lang-html">&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;p&gt;This is another paragraph.&lt;/p&gt;</code></pre>
 <p>When we use HTML files we use HTML tags to describe or structure the content of the page, we use tags to describe a HTML element which is made up of a <strong>start tag</strong> and an <strong>end tag</strong> and some content in between - start tag <code>&lt;start&gt;</code> end tag <code>&lt;/end&gt;</code></p>
 <p><em>Hyperlinks</em></p>
-<pre><code class="html">&lt;a href=&quot;#&quot;&gt;This is what bootstrap will give you&lt;/a&gt;
-</code></pre>
-
+<pre><code class="lang-html">&lt;a href=&quot;#&quot;&gt;This is what bootstrap will give you&lt;/a&gt;</code></pre>
 <p>With Bootstrap we normally get a blank hyperlink so we must replace the # with an actual web address and some description of the link</p>
-<pre><code class="html">&lt;a href=&quot;http://moodle.wit,ie&quot;&gt;This is a a link to Moodle&lt;/a&gt;
-</code></pre>
-
+<pre><code class="lang-html">&lt;a href=&quot;http://moodle.wit,ie&quot;&gt;This is a a link to Moodle&lt;/a&gt;</code></pre>
 <p><em>The <code>&lt;div&gt;</code> tag</em></p>
 <p>You will have noticed that bootstrap uses div tags, div tags are a way of defining separate sections within a HTML page, div tags will have a start tag <code>&lt;div&gt;</code> and an end tag <code>&lt;/div&gt;</code></p>
-<pre><code class="html">&lt;div class=&quot;panel panel-info&quot;&gt;
+<pre><code class="lang-html">&lt;div class=&quot;panel panel-info&quot;&gt;
   &lt;div class=&quot;panel-heading&quot;&gt;
     &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
   &lt;/div&gt;
   &lt;div class=&quot;panel-body&quot;&gt;
     Panel content
   &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
-<p>You can see from the code above that bootstrap "wraps" most components in a <code>&lt;div&gt;</code> "opening and closing" tag but you will also notice that it uses the <strong>class</strong> attribute, most bootstrap components are using this structure, and just in case you were wondering where the different colors come from have at look at the image below.</p>
-<p><img alt="" src="./img/08.png"></p>
+&lt;/div&gt;</code></pre>
+<p>You can see from the code above that bootstrap &quot;wraps&quot; most components in a <code>&lt;div&gt;</code> &quot;opening and closing&quot; tag but you will also notice that it uses the <strong>class</strong> attribute, most bootstrap components are using this structure, and just in case you were wondering where the different colors come from have at look at the image below.</p>
+<p><img src="./img/08.png" alt=""></p>
 <h1>HTML Attributes</h1>
-<p>HTML attributes provide additional information or functionality for an HTML element, attributes always consists of a pair e.g: name="value" We can see above we used an <code>&lt;a&gt;</code> tag, which is a link tag, we used the href attribute to link to a website.</p>
+<p>HTML attributes provide additional information or functionality for an HTML element, attributes always consists of a pair e.g: name=&quot;value&quot; We can see above we used an <code>&lt;a&gt;</code> tag, which is a link tag, we used the href attribute to link to a website.</p>
 <h2>Conclusion</h2>
-<p>The main point to remember about tags and elements is that every start tag must have a closing tag, and that most elements will use an attribute i.e. <code>href="value"</code> or <code>class="value"</code></p>
-<p><em>Continue to step 02</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="02">
-    <h1>URL - Web Address</h1>
-<p>We know that the web address or URL (Unversal Resource Locator) of <a href="https://moodle.wit.ie">Moodle</a> is https://moodle.wit.ie the <a href="http://getbootstrap.com/">Bootstrap</a> URL is http://getbootstrap.com/</p>
-<p>Okay you know that, but this also means that all resources and activities in Moodle has a URL, so a discussion forum, quiz, file, etc has its own URL, this means that when you click on a discussion forum the URL changes, we can use these URL's to hyperlink from a bootstrap component (Button) to the activity/resource from within your module.</p>
+<p> The main point to remember about tags and elements is that every start tag must have a closing tag, and that most elements will use an attribute i.e. <code>href=&quot;value&quot;</code> or <code>class=&quot;value&quot;</code></p>
+<p> <em>Continue to step 02</em></p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="02">
+        <h1>URL - Web Address</h1>
+<p>We know that the web address or URL (Unversal Resource Locator) of <a href="https://moodle.wit.ie">Moodle</a> is <a href="https://moodle.wit.ie">https://moodle.wit.ie</a> the <a href="http://getbootstrap.com/">Bootstrap</a> URL is <a href="http://getbootstrap.com/">http://getbootstrap.com/</a></p>
+<p>Okay you know that, but this also means that all resources and activities in Moodle has a URL, so a discussion forum, quiz, file, etc has its own URL, this means that when you click on a discussion forum the URL changes, we can use these URL&#39;s to hyperlink from a bootstrap component (Button) to the activity/resource from within your module.</p>
 <h2>Hyperlink</h2>
 <p>We can use a hyperlink to link from the button in our Jumbotron to the Announcements discussion forum.</p>
-<p><img alt="" src="./img/01.png"></p>
+<p><img src="./img/01.png" alt=""></p>
 <p>Back in your training module, and go to your Jumbotron, you can see if you click on the Learn More Button nothing happens
 We need to put a hyperlink behind the button so that when someone clicks it the hyperlink will send them to that location</p>
 <h2>Announcements</h2>
 <ul>
-<li>Back in your module notice the URL it say something like 'https://moodle.wit.ie/course/view.php?id=84871'</li>
+<li>Back in your module notice the URL it say something like &#39;<a href="https://moodle.wit.ie/course/view.php?id=84871">https://moodle.wit.ie/course/view.php?id=84871</a>&#39;</li>
 <li>click on the Announcements activity - again notice the URL its should have changed - <strong>copy that URL</strong></li>
-<li>Turn editing on and go to you Jumbotron code - same process as before, 'Show more Buttons' then the HTML button</li>
-<li>Look for the code where its say href='#' and replace the # with the URL you just copied</li>
+<li>Turn editing on and go to you Jumbotron code - same process as before, &#39;Show more Buttons&#39; then the HTML button</li>
+<li>Look for the code where its say href=&#39;#&#39; and replace the # with the URL you just copied</li>
 </ul>
-<p><img alt="" src="./img/02.png"></p>
+<p><img src="./img/02.png" alt=""></p>
 <ul>
-<li>Save your work, now click on the 'Learn more' button, you should be now at a new location (the Announcements)</li>
+<li>Save your work, now click on the &#39;Learn more&#39; button, you should be now at a new location (the Announcements)</li>
 </ul>
 <p>See, Easy :)</p>
 <ul>
-<li>Go back into your code for the jumbotron, we need to change 'Learn more' to 'Announcements'</li>
+<li>Go back into your code for the jumbotron, we need to change &#39;Learn more&#39; to &#39;Announcements&#39;</li>
 </ul>
-<p><img alt="" src="./img/04.png"></p>
+<p><img src="./img/04.png" alt=""></p>
 <ul>
-<li>While your in the code for the jumbotron, we need to change the size of the 'Announcements' button, currently is too big</li>
+<li>While your in the code for the jumbotron, we need to change the size of the &#39;Announcements&#39; button, currently is too big</li>
 <li>We need to reduce the size if the button a little - change the btn-lg to <strong>btn-md</strong> (see image below)</li>
 </ul>
-<p><img alt="" src="./img/05.png"></p>
-<p>Your code should end up like this</p>
-<pre><code class="html"> &lt;div class=&quot;jumbotron&quot;&gt;
+<p><img src="./img/05.png" alt=""></p>
+<p> Your code should end up like this</p>
+<pre><code class="lang-html"> &lt;div class=&quot;jumbotron&quot;&gt;
    &lt;h3&gt;Dear Students&lt;/h3&gt;
    &lt;p&gt;Welcome to this &lt;a href=&quot;http://getbootstrap.com/components/&quot; target=&quot;_blank&quot;&gt;Bootstrap&lt;/a&gt; workshop, please remember, if you make a mistake just delete this code (click the HTML button) then delete the code and go back to Bootstrap and copy and paste the code back in here again and start over.&lt;/p&gt;
    &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-md&quot; href=&quot;THE-WEB-ADDRESS-OF-YOUR-ANNOUNCMENTS&quot; role=&quot;button&quot;&gt;Announcements&lt;/a&gt;&lt;/p&gt;
- &lt;/div&gt;
-</code></pre>
-
+ &lt;/div&gt;</code></pre>
 <h2>Conclusion</h2>
-<p>We can use bootstrap buttons to link to many activities and resources in Moodle, its just a case of deciding when its appropriate to use different components, sometime less is more :)</p>
-<p><em>Continue to Step 03</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="03">
-    <h1>Linking to Activities</h1>
+<p> We can use bootstrap buttons to link to many activities and resources in Moodle, its just a case of deciding when its appropriate to use different components, sometime less is more :)</p>
+<p> <em>Continue to Step 03</em></p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="03">
+        <h1>Linking to Activities</h1>
 <p>We are going to create a page in Moodle then link to that page from out Jumbotron, we will now start to <strong>nest</strong> components inside other components, in this case an extra button inside a Jumbotron.</p>
 <h2>Moodle Page</h2>
 <p>Back in your training module navigate to section 12, turn editing on, add a <strong>Resource</strong> (Page)</p>
-<p><img alt="" src="./img/09.png"></p>
+<p><img src="./img/09.png" alt=""></p>
 <p>Call this new page Module Descriptor</p>
-<p><img alt="" src="./img/10.png"></p>
-<p>Back in the Bootstrap tab of your browser copy the code for a panel "with a title" make sure you change the value of the attribute from <code>&lt;div class="panel panel-default"&gt;</code> to <code>&lt;div class="panel panel-info"&gt;</code> the code is below - take this and copy this code into the <strong>Content</strong> window (same process as before click show more button then click the HTML button)</p>
-<pre><code class="html">&lt;div class=&quot;panel panel-info&quot;&gt;
+<p><img src="./img/10.png" alt=""></p>
+<p>Back in the Bootstrap tab of your browser copy the code for a panel &quot;with a title&quot; make sure you change the value of the attribute from <code>&lt;div class=&quot;panel panel-default&quot;&gt;</code> to <code>&lt;div class=&quot;panel panel-info&quot;&gt;</code> the code is below - take this and copy this code into the <strong>Content</strong> window (same process as before click show more button then click the HTML button)</p>
+<pre><code class="lang-html">&lt;div class=&quot;panel panel-info&quot;&gt;
   &lt;div class=&quot;panel-heading&quot;&gt;
     &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
   &lt;/div&gt;
   &lt;div class=&quot;panel-body&quot;&gt;
     Panel content
   &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
+&lt;/div&gt;</code></pre>
 <h2>Bootstrap your Module Descriptor page</h2>
-<p>Now we are going to use some Bootstrap panels to create 'Sections' of our new module descriptor page.
+<p>Now we are going to use some Bootstrap panels to create &#39;Sections&#39; of our new module descriptor page.
 - Copy and paste this code into the Content (Page Content) <strong>four</strong> (4) times, under each other.
 - The first Panel title is <strong>Module Description/Aims</strong> the second panel title is <strong>Learning and Teaching Methods</strong> the third panel title is <strong>Indicative Content</strong> the fourth and last panel title is <strong>Learning Outcomes</strong> You can add more panels if you wish.</p>
 <h2>Create a new Button in Jumbotron</h2>
 <ul>
-<li>
-<p>In your Jumbotron, we will create a new button that will link to this new page, turn editing on, and in your Jumbotron navigate to the code.</p>
+<li><p>In your Jumbotron, we will create a new button that will link to this new page, turn editing on, and in your Jumbotron navigate to the code.</p>
 </li>
-<li>
-<p>In your bootstrap tab navigate to the Jumbotron component and copy the line of code just for the button</p>
+<li><p>In your bootstrap tab navigate to the Jumbotron component and copy the line of code just for the button</p>
 </li>
 </ul>
-<p><img alt="" src="./img/11.png"></p>
+<p><img src="./img/11.png" alt=""></p>
 <ul>
 <li>now paste this line of code beneath your announcements button in the Jumbotron code in your training area</li>
 </ul>
-<p><img alt="" src="./img/12.png"></p>
+<p><img src="./img/12.png" alt=""></p>
 <ul>
 <li>now if you view the changes but clicking the HTML button <code>&lt; &gt;</code> you should see the following</li>
 </ul>
-<p><img alt="" src="./img/13.png"></p>
+<p><img src="./img/13.png" alt=""></p>
 <p>As you can see we have a problem, we would prefer if the buttons were horizontal, to fix that we need to look at the tags, remember we have and opening tag <code>&lt;p&gt;</code> then we should have a closing tag <code>&lt;/p&gt;</code> and the content inside, this all makes up that HTML element, if we remove both the inner <code>&lt;/p&gt;</code> and <code>&lt;p&gt;</code> this will resolve the problem.</p>
-<p><img alt="" src="./img/14.png"></p>
-<p>Also don't forget to change the size if the button to <strong>btn-md</strong></p>
-<p><img alt="" src="./img/15.png"></p>
+<p><img src="./img/14.png" alt=""></p>
+<p>Also don&#39;t forget to change the size if the button to <strong>btn-md</strong></p>
+<p><img src="./img/15.png" alt=""></p>
 <h2>Get the URL of your Page</h2>
 <p>The new button is in place but it does not link anywhere, we will now link this button to the page we created. You have and content of you page and the structure is complete, we need to get the web address of that page now.</p>
 <ul>
-<li>
-<p>Click on your page (Module Descriptor) from the module page, notice that the URL has changed in the address bar, copy this address.</p>
+<li><p>Click on your page (Module Descriptor) from the module page, notice that the URL has changed in the address bar, copy this address.</p>
 </li>
-<li>
-<p>go back to the Jumbotron code and replace the # thats after in the <code>href="#"</code> attribute and change "Learn More" to "Module Descriptor"</p>
+<li><p>go back to the Jumbotron code and replace the # thats after in the <code>href=&quot;#&quot;</code> attribute and change &quot;Learn More&quot; to &quot;Module Descriptor&quot;</p>
 </li>
 </ul>
-<p><img alt="" src="./img/16.png"></p>
+<p><img src="./img/16.png" alt=""></p>
 <h1>Conclusion</h1>
 <p>Now you ave started to integrate component into other components and we have looked at URLs and HTML elements, attributes and tags, remember that you can go back at any stage to recap on a step.</p>
 <p><em>Continue to Step 04</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="04">
-    <h1>The Hidden Section Concept</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="04">
+        <h1>The Hidden Section Concept</h1>
 <p>We are starting to use bootstrap to link to activities and resources now, and some of these activities and resources are in the same section, and if this is the case the users can see them, which kind of defeats the purpose of putting in some bootstrap in you Module.</p>
-<p>In order to workaround this we can use what we call a "Hidden Section". This is just another section, usually the last section renamed to Hidden Section, we then hide this section by closing the eye, now the student wont be able to see the contents of this section, which is where we will store our activities and resources.</p>
+<p>In order to workaround this we can use what we call a &quot;Hidden Section&quot;. This is just another section, usually the last section renamed to Hidden Section, we then hide this section by closing the eye, now the student wont be able to see the contents of this section, which is where we will store our activities and resources.</p>
 <h2>The Watercooler</h2>
 <ul>
 <li>In section 12 of your training module click on the section header cog wheel and rename the section to Hidden Section.</li>
 <li>Add a forum activity and call the The Watercooler</li>
 <li>Because you created this forum in a hidden section it will be hidden by default, edit this activity and click Show.</li>
 </ul>
-<p><img alt="" src="./img/19.png"></p>
+<p><img src="./img/19.png" alt=""></p>
 <h2>The link</h2>
 <p>We will link to this forum from the panel in Section 2 (Bootstrap Stuff)</p>
 <ul>
 <li>Goto to the Bootstrap Stuff section and click on the cog wheel to edit the contents of the section header, remember we have already put a panel in there, now we are going to inter=grate a button inside that component.</li>
 </ul>
-<p><img alt="" src="./img/17.png"></p>
+<p><img src="./img/17.png" alt=""></p>
 <ul>
 <li>Go to the code window via the usual method (Show more buttons, HTML button)</li>
 <li>Next on your Bootstrap tab in you browser copy the code for the Button in the jumbotron.</li>
 </ul>
-<p><img alt="" src="./img/11.png"></p>
+<p><img src="./img/11.png" alt=""></p>
 <ul>
-<li>Back in Moodle paste the code into the panel code before the second last <code>&lt;/div&gt;</code> don't forget to change the size of the button to btn-md and also re-name the button from "Learn More" to "The Watercooler" save you work.</li>
+<li>Back in Moodle paste the code into the panel code before the second last <code>&lt;/div&gt;</code> don&#39;t forget to change the size of the button to btn-md and also re-name the button from &quot;Learn More&quot; to &quot;The Watercooler&quot; save you work.</li>
 </ul>
-<p><img alt="" src="./img/18.png"></p>
+<p><img src="./img/18.png" alt=""></p>
 <h1>Back on the Module page</h1>
 <ul>
 <li>From the module page click on the The Watercooler, note the change in the URL, copy this URL.</li>
-<li>go back to the panel header in Bootstrap Stuff and paste URL into the href="#" attribute, replacing the # with the URL you just copied, save your work.</li>
+<li>go back to the panel header in Bootstrap Stuff and paste URL into the href=&quot;#&quot; attribute, replacing the # with the URL you just copied, save your work.</li>
 </ul>
 <h2>Conclusion</h2>
 <p>As well as introducing nested components we have also looked at the concept of using a hidden section where we can hide the section and its contents but link to them from other section in the module.</p>
 <p><em>Continue to step  05</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="05">
-    <h1>What cant we use?</h1>
-<p>We can use lots of Bootstrap components that we can use, however, there are some other components that we can not used because most components are integrated into a Moodle resource called a label, label's or section headers together with pages are most common areas to slot in bootstrap components, we also used discussion forums and forum posts, assignment headers etc.</p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="05">
+        <h1>What cant we use?</h1>
+<p>We can use lots of Bootstrap components that we can use, however, there are some other components that we can not used because most components are integrated into a Moodle resource called a label, label&#39;s or section headers together with pages are most common areas to slot in bootstrap components, we also used discussion forums and forum posts, assignment headers etc.</p>
 <p>Because Moodle uses a theme and all of the resources and activities have a certain size some Bootstrap components are designed to be used independently of a system that has its own styling such as Moodle, Bootstrap was designed to be used in styling websites where the developers have total control over interactive components such as search components and drop-downs.</p>
 <h2>Media Lists</h2>
 <p>Media lists are useful in some cases, we can use them to introduce Module sections or we could used them for Discussion forum or posts</p>
 <ul>
 <li>In your Bootstrap tab navigate to Media Objects, you should see some thing like the image below</li>
 </ul>
-<p><img alt="" src="./img/20.png"></p>
+<p><img src="./img/20.png" alt=""></p>
 <ul>
 <li>in section 3 of your Training Module rename the section to Media Objects</li>
 </ul>
-<p><img alt="" src="./img/21.png"></p>
+<p><img src="./img/21.png" alt=""></p>
 <h2>Create a label</h2>
 <ul>
 <li>We want to create a media object that looks something like this</li>
 </ul>
-<p><img alt="" src="./img/22.png"></p>
+<p><img src="./img/22.png" alt=""></p>
 <ul>
 <li>Create a label in your Media Objects section and copy and paste the code below into the HTML area</li>
 </ul>
-<pre><code class="html">&lt;div class=&quot;media&quot;&gt;
+<pre><code class="lang-html">&lt;div class=&quot;media&quot;&gt;
   &lt;div class=&quot;media-left media-middle&quot;&gt;&lt;img src=&quot;#&quot; alt=&quot;&quot; width=&quot;110&quot; height=&quot;92&quot; role=&quot;presentation&quot; style=&quot;float:left; margin: 0 .5em 0 0;&quot; class=&quot;img-responsive&quot;&gt;&lt;br&gt;&lt;/div&gt;
   &lt;div class=&quot;media-body&quot;&gt;
     &lt;p&gt;This is an Open Discussion forum where all members of this area can start a discussion and / or reply to a discussion&lt;/p&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-
+&lt;/div&gt;</code></pre>
 <h2>Import the Image</h2>
 <ul>
 <li>you will need to click on the image and then click on the media icon and import your own image.</li>
 </ul>
-<p><img alt="" src="./img/23.png"></p>
+<p><img src="./img/23.png" alt=""></p>
 <h2>Conclusion</h2>
-<p>That's it for Lab02, we have looked at Media objects in this step and we also touched on some restrictions of some components.</p>
+<p>That&#39;s it for Lab02, we have looked at Media objects in this step and we also touched on some restrictions of some components.</p>
 <p><em>Continue to Exercises</em></p>
-  </div>
-  <div  class="ui tab segment lab" data-tab="Exercises">
-    <h1>Exercises</h1>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="Exercises">
+        <h1>Exercises</h1>
 <h2>Exercise 1</h2>
-<p>Have a look at "Pills" in Bootstrap located <a href="http://getbootstrap.com/components/#nav-pills">here</a> copy the code and place into a label in section 2 (Media Objects) and try and link to either internal (in your module) resources and external website such as Vimeo or Ted Talks
-<img alt="" src="./img/24.png"></p>
+<p>Have a look at &quot;Pills&quot; in Bootstrap located <a href="http://getbootstrap.com/components/#nav-pills">here</a> copy the code and place into a label in section 2 (Media Objects) and try and link to either internal (in your module) resources and external website such as Vimeo or Ted Talks
+<img src="./img/24.png" alt=""></p>
 <h2>Exercise 2</h2>
 <p>Answer these questions located <a href="https://moodle.wit.ie/mod/quiz/view.php?id=1613533">here</a></p>
-  </div>
-<script>
-$('.ui.menu .item')
-  .tab({
-    history: true,
-    historyType: 'hash'
-  })
-;
-</script>
-   </div>
 
-
-
-  <br><br>
-  <div class="ui bottom fixed borderless menu">
-    <div class="ui small item">
-    <p id="footertext">
-    Prepared by  Conor O'Neill (cponeill@wit.ie). Except where otherwise noted, this content is licensed under a
-     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
-     </a>
-     </p>
+      </div>
+     
     </div>
-  </div>    <script>
+  </div>
+</div>
+  <div class="ui bottom fixed borderless right menu">
+    <div class="ui right tiny menu">
+      <div class="ui mini message segment">
+        Conor O'Neill (cponeill@wit.ie).
+        <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank">Creative Commons License
+        </a>
+      </div>
+    </div>
+  </div>
 
+    <footer>
+
+    </footer>
+    <script>
+      
 $(document).ready(function()
 {
   $("img").addClass ("ui image");
@@ -396,7 +420,21 @@ $(document).ready(function()
   });
 
 
-})    </script>
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
 
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
+
+    </script>
   </body>
+
  </html>

@@ -7,18 +7,18 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.css" type="text/css">
-     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/solarized_light.min.css" rel="stylesheet" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
 
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/languages/java.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
      <script>hljs.initHighlightingOnLoad();</script>
 
       <style>
-
+        
 
 body 
 {
@@ -36,119 +36,203 @@ figcaption
   align-items: center;
 }
 
-.credits
-{
-  min-height:20px;
-}
+
+
     </style>
 
   </head>
 
   <body>
+    
 
-  <div class="ui container">
-  <header class="ui middle aligned center aligned stackable grid segment">
-    <a class="ui blue left corner label">
-      <i class="sitemap big  icon"></i>
+
+
+
+
+
+
+<header class="ui middle aligned center aligned stackable grid segment">
+
+  <a class="ui blue left corner label">
+  <div id="showTOC" class="popup" data-content="Reveal TOC">
+    <i id="toc" class="sitemap big  icon"></i>
+  </div>
+</a>
+
+  <div class="seven wide center aligned column">
+    <h2 class="headder"> Reboot your Module</h2>
+    <p> Top Level Topics </p>
+  </div>
+
+  
+<div class="two wide column sitemap">
+  <div class="popup" data-content="Top Level Topic View">
+    <a href="#"> <i class="huge home icon"></i> Topics </a>
+  </div>
+</div>
+
+  
+<div class="four wide column">
+  <div class="ui center aligned mini message segment">
+    Conor O'Neill (cponeill@wit.ie).
+    <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+        target="_blank">Creative Commons License
     </a>
-    <div class="eight wide center aligned column">
-      <h2 class="headder">    Reboot your Module </h2>
-    </div>
-    <div class="one wide column sitemap">
-      <div class="popup" data-content="Top Level Topic View">
-        <a href="index.html"> <i class="big sitemap icon"></i>  topics </a>
+  </div>
+</div>
+
+
+  
+<div class="ui two wide right aligned column">
+  <div class="ui left aligned middle aligned very basic grid">
+    <div class="row">
+      <div class="popup" data-content="All Slides in Course">
+        <a href="talkwall.html"> <i class="large film icon"></i> All Slides </a>
       </div>
     </div>
-    <div class="one wide column">
-      <div class="popup" data-content="All Presentations">
-        <a href="talkwall.html"> <i class="big film icon"></i>  slides </a>
+    <div class="row">
+      <div class="popup" data-content="All Labs in Course">
+        <a href="labwall.html"> <i class="large lab icon"></i> All Labs </a>
       </div>
     </div>
-    <div class="one wide column">
-      <div class="popup" data-content="All Labs">
-        <a href="labwall.html"> <i class="big lab icon"></i> labs </a>
+  </div>
+</div>
+
+
+
+</header>
+
+
+<div class="ui segment pushable">
+  <div class="ui inverted inline vertical sidebar menu">
+    
+    <div class="header">
+      <a class="item" href="topic01/index.html">
+        Engage
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic01/talk-1/bootstrap-engage.pdf">
+          Emgage</a>
       </div>
+      
+      <div class="menu">
+        <a class="item" href="topic01/book/index.html">
+          Lab-01</a>
+      </div>
+      
     </div>
-    <div class="five wide column">
-      <img class="ui centered medium image" src="http://www.wit.ie/assets/images/wit_crest.png">
+    
+    <div class="header">
+      <a class="item" href="topic02/index.html">
+        Extend
+      </a>
     </div>
-  </header>
-
-<script>
-  $('.popup')
-  .popup()
-;
-</script>
-
-
-<div class="ui four doubling stackable cards">
-
-    <div class="ui card">
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic02/talk-2/bootstrap-extend.pdf">
+          Extend</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic02/book/index.html">
+          Lab-02</a>
+      </div>
+      
+    </div>
+    
+    <div class="header">
+      <a class="item" href="topic03/index.html">
+        Enhance
+      </a>
+    </div>
+    <div class="menu">
+      
+      <div class="menu">
+        <a class="item" href="topic03/talk-3/bootstrap-enhance.pdf">
+          Enhance</a>
+      </div>
+      
+      <div class="menu">
+        <a class="item" href="topic03/book/index.html">
+          Lab-03</a>
+      </div>
+      
+    </div>
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <div class="ui four doubling stackable cards">
+        
+          
+  <a class="ui raised link card" href="./topic01/index.html">
     <div class="content">
         <div class="right floated meta"> <i class="sitemap large icon"></i></div>
         <div class="header"> Engage </div>
     </div>
-    <a href="./topic01/index.html">
+    <div class="image">
       <img class="ui bordered rounded image" src="./topic01/topic.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
          <p>In this lab you will learn what Bootstrap is and how it can be used, we look at what a bootstrap component is and how we can integrate these components into your Moodle module.</p>
+
       </div>
     </div>
-  </div>
+  </a>
 
-
-    <div class="ui card">
+        
+          
+  <a class="ui raised link card" href="./topic02/index.html">
     <div class="content">
         <div class="right floated meta"> <i class="sitemap large icon"></i></div>
         <div class="header"> Extend </div>
     </div>
-    <a href="./topic02/index.html">
+    <div class="image">
       <img class="ui bordered rounded image" src="./topic02/topic.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
-         <p>In Lab02 we will apply further Bootstrap components, we learn more about about URL's and module structure.</p>
+         <p>In Lab02 we will apply further Bootstrap components, we learn more about about URL&#39;s and module structure. </p>
+
       </div>
     </div>
-  </div>
+  </a>
 
-
-    <div class="ui card">
+        
+          
+  <a class="ui raised link card" href="./topic03/index.html">
     <div class="content">
         <div class="right floated meta"> <i class="sitemap large icon"></i></div>
         <div class="header"> Enhance </div>
     </div>
-    <a href="./topic03/index.html">
+    <div class="image">
       <img class="ui bordered rounded image" src="./topic03/topic.png">
-    </a>
+    </div>
     <div class="content">
       <div class="description">
-         <p>In this lab we will look at more advanced components of Bootstrap such as video and images.</p>
+         <p>In this lab we will look at more advanced components of Bootstrap such as video and images.    </p>
+
+      </div>
+    </div>
+  </a>
+
+        
       </div>
     </div>
   </div>
-
-
 </div>
 
-   </div>
 
+    <footer>
 
-
-  <br><br>
-  <div class="ui bottom fixed borderless menu">
-    <div class="ui small item">
-    <p id="footertext">
-    Prepared by  Conor O'Neill (cponeill@wit.ie). Except where otherwise noted, this content is licensed under a
-     <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
-       target="_blank">Creative Commons Attribution-NonCommercial 4.0 License
-     </a>
-     </p>
-    </div>
-  </div>    <script>
-
+    </footer>
+    <script>
+      
 $(document).ready(function()
 {
   $("img").addClass ("ui image");
@@ -167,7 +251,21 @@ $(document).ready(function()
   });
 
 
-})    </script>
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
 
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
+
+    </script>
   </body>
+
  </html>
