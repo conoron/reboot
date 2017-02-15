@@ -1,0 +1,371 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+
+     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css" type="text/css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/solarized-light.min.css" rel="stylesheet" />
+
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/languages/java.min.js"></script>
+     <script>hljs.initHighlightingOnLoad();</script>
+
+      <style>
+        
+
+body 
+{
+  font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
+}
+
+figcaption
+{
+  margin-bottom: 20px;
+}
+
+.vertical-align
+{
+  display: flex;
+  align-items: center;
+}
+
+
+
+    </style>
+
+  </head>
+
+  <body>
+    
+
+<style>
+  
+
+code
+{
+  font-family: "Monaco";
+  font-size: 110%;
+}
+
+img
+{
+  padding:1px;
+  border:1px solid black;
+}
+
+h1
+{
+  font-style:italic;
+  font-size:130%;
+  border-bottom: thin solid black;
+}
+h2
+{
+  font-size:110%;
+  border-bottom: thin solid black;
+}
+h3
+{
+  font-size:100%;
+  border-bottom: thin solid black;
+}
+
+
+
+</style>
+
+<div class="ui fixed top pointing inverted menu labmenu">
+  <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
+    <a href="../index.html">
+      Getting Started
+    </a>
+  </header>
+  <div class="right tab-menu menu">
+    
+    <a class="item" data-tab="Lab-01">
+      Lab-01
+    </a>
+    
+    <a class="item" data-tab="01">
+      01
+    </a>
+    
+    <a class="item" data-tab="02">
+      02
+    </a>
+    
+    <a class="item" data-tab="03">
+      03
+    </a>
+    
+    <a class="item" data-tab="04">
+      04
+    </a>
+    
+    <a class="item" data-tab="05">
+      05
+    </a>
+    
+    <a class="item" data-tab="Exercises">
+      Exercises
+    </a>
+    
+    <a class="item" href="../../index.html">
+      <i class="home icon"></i>
+    </a>
+  </div>
+</div>
+
+<div class="ui segment pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    
+      
+        <a class="active item" href="../../topic01/book/index.html">
+          Lab-01
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic02/book/index.html">
+          Lab-02
+        </a>
+      
+    
+      
+        <a class="item" href="../../topic03/book/index.html">
+          Lab-03
+        </a>
+      
+    
+  </div>
+  <div class="pusher">
+    <div class="ui basic segment">
+      <br>
+      
+      <div  class="ui tab segment lab" data-tab="Lab-01">
+        <h1>Learning Outcomes</h1>
+<p>In this Lab we look at:</p>
+<ul>
+<li>What is Bootstrap</li>
+<li>What are Bootstrap <strong>Compontents</strong></li>
+<li>We look the <strong>process</strong> how to integrate bootstrap components into Moodle</li>
+<li>We will work from different tabs in a web browser like Google Chrome</li>
+</ul>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="01">
+        <h1>Note</h1>
+<ul>
+<li>When using these labs you can navigate backwards and forwards through each lab, theres no restrictions in place or you can click on the Hone Icon to navigate to the home page.</li>
+</ul>
+<h2>Where to Start</h2>
+<p>We will start by logging into Moodle and when you get in click into a module called Moodle labs</p>
+<p><img src="./img/06.png" alt=""></p>
+<p>Open <strong>Lab 01 - Getting Started</strong> if you notice in your web browser you should have a new tab, working with tabs in your browser window allows you to work in several different systems at the same time, i.e. search in one tab, Moodle in another tab, some other website in another, you just need to be aware of which tab is for which system.</p>
+<h2>Some Basics First</h2>
+<p>In this lab we will learn which web browser we will use together with some basics of bootstrap along with the process of taking bootstrap and integrating it with Moodle </p>
+<h2>Web Browsers</h2>
+<p>Web browsers allow us to retrieve and browse content on the world wide web, we can make requests for a web site by typing in a web address of the web site that we are looking for i.e. Moodle, Gmail, RTE, Irish Time etc.</p>
+<p>This is the WIT Moodle site, and as you can see the web address of the moodle web site is in the address bar, remember this because will use the web address of different resources later.</p>
+<p><img src="./img/02.png" alt=""></p>
+<h2>Web Browser Types</h2>
+<p>There are different types of web browsers, you will be familiar with the more popular one such as Google Chrome, Mozilla Firefox, Internet Explorer, have a look at the images below, we recommend Google Chrome.</p>
+<p><img src="./img/04.png" alt=""></p>
+<p>Google Chrome works best with Moodle and is the web browser that we will use in these labs</p>
+<p><img src="./img/03.png" alt=""></p>
+<p><em>Continue to step 02</em></p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="02">
+        <h1>Bootstrap Basics</h1>
+<p>In this step I will introduce Bootstrap and what it is and what it allows us to do in Moodle, where Bootstrap is located on the web etc</p>
+<h2>What is Bootstrap?</h2>
+<p>Bootstrap is a web framework that allows us to develop the interface (fromtscreen) of web sites, in our case Moodle, with the aid of components, this software is free and is easily access through the bootstarp website.</p>
+<p>New tabs - <a href="http://getbootstrap.com/components/">click here to open a new Bootstrap tab</a> </p>
+<p><img src="./img/07.png" alt=""></p>
+<p>As you can see we have landed on the Components page, this is where we will get some of our basics components for this lab, you will have to to go back and forth from Moodle to the Bootstrap components page a lot, so take a few a minutes to browse through somw of the components.</p>
+<h2>What can I do with Bootstrap?</h2>
+<p>We can use any of these bootstrap components in Moodle, all of these components can be used individually or we can combine some components inside another component, that&#39;s for later labs :) for the time being I want you too look at the Jumbothron component</p>
+<p><img src="./img/08.png" alt=""></p>
+<p>You can see what these components looks like and the <code>code</code> above, we need to get the code for this component and use it in Moodle, for us to use it we must <strong>Copy (Ctrl C)</strong> the code by clicking the Copy button, do this in the <em>Bootstrap</em> tab of your Web Browser, this will copy the code to the clipboard of the machine your using.</p>
+<p>A jumbotron is mainly used as a welcome message, and in Moodle we normally use it in the Welcome section.</p>
+<p><em>Continue to step 03</em> </p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="03">
+        <h1>Integrate Bootstrap into Moodle</h1>
+<p>In this next step we will look at the Process of taking a bootstrap component (like a Jumbotron) and integrating it into Moodle, one thing you need to remember is that it dosent matter if you make a mistake you can always just go back to a previous step and start again.</p>
+<h2>Decisions Decisions</h2>
+<p>While certain Bootstarp compontents lend them selves to certain areas in a Moodle module, sometimes you just need to decde on a location that suits what exactly who are trying to achive. So for instance in the welcome section is normal to use a Jumbotron, but a Jumbotron might look out of place in some other section.</p>
+<p>Sometimes all you want to do is provide navigation or highlight some instructions to students, sometimes you might want to make the studsent aware of a situation for instance when or how they need to reply to a popst in a discussion forum.</p>
+<p>What bootstrap will allow you to do is provide a better more ingaging expierance through applying a different struture using bootstrap.</p>
+<h2>The Welcome Section</h2>
+<p>Remember we copied the <code>code</code> for the <a href="http://getbootstrap.com/components/#jumbotron">Jumbotron</a> now visit this page again and hit the copy button to copy the code to your clipboard.</p>
+<p>Now, back in your Moodle web browser tab open <strong>your Training Module</strong> and Turn Editing on (click the button top right), now, click on the cog wheel alongside the Section name (Welcome)</p>
+<h1>This is how we get Bootstrap code into Moodle</h1>
+<p><img src="./img/09.png" alt=""></p>
+<p>We now ned to get set up so Moodle can take the code, click the show more buttons 1st then the HTML butoon 2nd, now paste in the code you just copied (CTRL V) </p>
+<p><img src="./img/10.png" alt=""></p>
+<p>When you click the HTML button again your should see the Jumbotron, <strong>Note</strong> this process of <em>copy and paste</em> is same process we use each time we go from the bootstrap website to Moodle, its just what you want anf copy and paste to any palce in Moodle that has a HTML button</p>
+<p><img src="./img/11.png" alt=""></p>
+<p>Now we need to change the text in the Jumbotron so that we can include our own message to the students, you can do this by simply changing the Heading and the message, delete what is currently in place then re-type your own text.</p>
+<p><img src="./img/12.png" alt=""></p>
+<p>After you delete the default text and place your own text in there you shpuld have something that looks like the image below.</p>
+<p><img src="./img/13.png" alt=""></p>
+<p>Thats it, well done, you just got your first peice of bootstrap into Moodle :)</p>
+<p><em>Continute to Step 04</em></p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="04">
+        <h1>Section Headers</h1>
+<p>As you can see from your training module each section (Table of Contents) has a default title of Section 1, Section 2 etc. We should name these section header with meaningful names, rename section 1 to &#39;Bootstrap Stuff&#39; by clicking on the cog wheel alongside the section header (section 1), untick the default box and enter the name &#39;Bootstrap Stuff&#39;</p>
+<p><img src="./img/14.png" alt=""></p>
+<h2>Panel&#39;s</h2>
+<p>Go back to your Bootstrap tab and look for a component called <a href="http://getbootstrap.com/components/#panels">Panels</a></p>
+<p><img src="./img/15.png" alt=""></p>
+<p>We want to use a panel at the top of our new section in Moodle (the one you just called Bootstrap Stuff) we want to place a panel there, again, we are going to just copy some code and paste it into the header, first we need to have a look at the code we want to copy, we want a panel with a title so we just need that code.</p>
+<p><img src="./img/17.png" alt=""></p>
+<h2>Which code?</h2>
+<p>This time we dont need to copy all the code just the part we need, in some case&#39;s we only need certain parts of a component, for instance, with panels we have panels with and without titles, we want the panel with a title, however bootstrap displays all the code for both with and without panel titles in the same window. See image below for the code you need.</p>
+<p><img src="./img/16.png" alt=""></p>
+<h2>The copy and paste process again</h2>
+<p>Copy just the that piece of code and go back to your module in Moodle, goto the section named &#39;Bootstrap Stuff&#39; and click on the cog wheel along side that section name. Again go through the same process of clicking on the Show more Buttons and then the HTML button</p>
+<p><img src="./img/10.png" alt=""></p>
+<p>Now we can paste in the code for the panel with a title, again to see what it looks like just click on the HTMl button again.</p>
+<p><img src="./img/18.png" alt=""></p>
+<h2>Change the text</h2>
+<p>We can change the text now, again hightlight the header where its say &#39;Panel Title&#39; and change it to &#39;Introduction&#39; and type some message that describes the section contents, in this case something about bootstrap.</p>
+<p><img src="./img/19.png" alt=""></p>
+<h2>Make some improvements</h2>
+<p>This still needs some work, so what we could do is make the panel title bold and we will change the color to match the Moodle Theme.
+Go back and click on the HTML button and delete your code, then <em>copy and paste</em> the code below back in again, do you notice any changes in the code ? Compare the first line to what you originally had.</p>
+<pre><code class="lang-html">&lt;div class=&quot;panel panel-info&quot;&gt;
+  &lt;div class=&quot;panel-heading&quot;&gt;
+    &lt;h3 class=&quot;panel-title&quot;&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel-body&quot;&gt;
+    In this section we will look at some basic Bootstrap components and how we can integrate them into Moodle&lt;br&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<h2>Where do we get tne colors?</h2>
+<p>Have a look at the imake below for some different colors</p>
+<p><img src="./img/20.png" alt=""></p>
+<h2>Finished Panel</h2>
+<p>This is the finished panel - save you work now.</p>
+<p><img src="./img/24.png" alt=""></p>
+<h2>Conclusion</h2>
+<p>Now we have introduced color, and we can use different colors, in this case we change the code so that panel uses &#39;info&#39; instead of &#39;default&#39; we have also looked at panels and again we use the same <strong>Process</strong> to integrate the <code>code</code> into Moodle</p>
+<p><em>Continue to step 05</em></p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="05">
+        <h1>Alerts</h1>
+<p>Another Bootstrap component is Alert, these can be used to &quot;Alert&quot; users to a particular instruction or some important information.</p>
+<p><img src="./img/20.png" alt=""></p>
+<h2>Different Alerts</h2>
+<p>As you can see from the image above there are different type of Bootstrap alerts and each one can be used in different situation, we might use the &#39;Green&#39; alert when a student finishes a quiz, we might use an &#39;Red&#39; alert when issuing some important instructions to students</p>
+<h2>In Announcements</h2>
+<p>Back in you Moodle Training area we will include an alert to student letting them know if they they are not allowed to reply to posts in the Announcements forum</p>
+<ul>
+<li>Turn editing on and in the Welcome section click show</li>
+<li>Click on Edit beside the &#39;Announcements&#39; activity and then Edit Settings</li>
+<li>Make sure the <strong>Format</strong> is set to HTML Format</li>
+</ul>
+<h2>In Bootstrap</h2>
+<p>In your Bootstrap tab, navigate to the <a href="http://getbootstrap.com/components/#alerts">Alert compontent</a> in Bootstrap and copy the last line of code, <strong>Danger</strong> this will copy the &#39;Red&#39; Alert (Dont Panic :)</p>
+<p><img src="./img/20.png" alt=""></p>
+<p>We will paste this line of code into our Announcements forum, we will do this because we want to let the student know that when they receive an Announcement that you, the Lecturer, do not want them to reply. We have permissions in place to prohibit this, however the students wont know about that. </p>
+<h2>Back in Announcements</h2>
+<p>In Edit mode, edit your Announcements activity, </p>
+<ul>
+<li>click on the Show more Buttons then the HTML button and paste in the line of code you just copied.</li>
+</ul>
+<p>Currently its says &#39;General news and announcements&#39; delete that and paste in the line of code. Now we can change the contents of the alert to make it more useful to us.</p>
+<p>So, currently this line of code</p>
+<pre><code class="lang-html">&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;...&lt;/div&gt;</code></pre>
+<p>Results in </p>
+<p><img src="./img/22.png" alt=""></p>
+<p>So if you changed ... to your message, or just copy what i have below </p>
+<pre><code class="lang-html">&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;&lt;u&gt;&lt;b&gt;Please&lt;/b&gt;&lt;/u&gt; do not reply to messages from this Announcements forum. Thanks&lt;br&gt;&lt;/div&gt;</code></pre>
+<p>You should end up with whats on the image below, this is what the student will see of they read you message in Moodle, you can also paste an alert into an actual post so that the students will see this alert in the actual post.</p>
+<p><img src="./img/23.png" alt=""></p>
+<p> <em>Continue to Exercises</em></p>
+
+      </div>
+     
+      <div  class="ui tab segment lab" data-tab="Exercises">
+        <h1>Exercises</h1>
+<h2>Exercise 1</h2>
+<p>In your training module create a post (new topic) in your Announcements forum and place an alert (you can use the code we just used in step 05) into the post, call the subject of the post &#39;Bootstrap Alerts&#39; and place your line of code into the Message (same process as before - show more buttons, then HTML button)</p>
+<h2>Exercise 2</h2>
+<p>Answer these questions located <a href="https://moodle.wit.ie/mod/quiz/view.php?id=1605139">here</a> </p>
+
+      </div>
+     
+    </div>
+  </div>
+</div>
+  <div class="ui bottom fixed borderless right menu">
+    <div class="ui right tiny menu">
+      <div class="ui mini message segment">
+        Conor O'Neill (cponeill@wit.ie).
+        <a  href="http://creativecommons.org/licenses/by-nc/4.0/" title="External link to http://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank">Creative Commons License
+        </a>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+
+    </footer>
+    <script>
+      
+$(document).ready(function()
+{
+  $("img").addClass ("ui image");
+  $('.ui.embed').embed();
+
+  var images = $(".lab img");
+  jQuery.each(images, function(i)  {
+    if((images[i].alt).length > 0)
+    {
+      var div_img = $(document.createElement("div")).addClass("ui segment");
+      $(images[i]).wrap(div_img);
+      var div_label = $(document.createElement("div")).addClass("ui ribbon teal top attached label");
+      div_label.append(images[i].alt);
+      $(div_label).insertBefore(images[i]);
+    }
+  });
+
+
+  $('.ui.menu .item')
+      .tab({
+        history: true,
+        historyType: 'hash',
+      });
+
+  $('.popup').popup();
+
+  $('.ui.sidebar')
+      .sidebar({ context: $('.pushable') })
+      .sidebar('setting', 'transition', 'slide out')
+      .sidebar('attach events', '#toc');
+});
+
+    </script>
+  </body>
+
+ </html>
